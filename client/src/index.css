@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-container{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-screen{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background: rgb(255, 255, 255);
+    width: 25%;
+    height: 60%;
+
+    -webkit-box-shadow: 8px 4px 18px 6px rgba(0,0,0,0.18);
+-moz-box-shadow: 8px 4px 18px 6px rgba(0,0,0,0.18);
+box-shadow: 8px 4px 18px 6px rgba(0,0,0,0.18);
+    border-radius: 0.15rem;
+    border: 0.1rem solid rgb(236, 236, 236);
+    padding: 0.75rem;
+}
+
+.login-screen-form h2{
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+h2 a{
+    color: black;
+}
+.login-screen-form{
+    background: rgb(255, 255, 255);
+    width: 25%;
+    height: min-content;
+    -webkit-box-shadow: 8px 4px 18px 6px rgba(0,0,0,0.18);
+-moz-box-shadow: 8px 4px 18px 6px rgba(0,0,0,0.18);
+box-shadow: 8px 4px 18px 6px rgba(0,0,0,0.18);
+    border-radius: 0.15rem;
+    border: 0.1rem solid rgb(236, 236, 236);
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+   
+    position: absolute;
+    top: 25%;
+    bottom: 25$;
+    row-gap: 0.5rem;
+    
+}
+
+input{
+    outline: none;
+    padding: 0.25rem;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 0.05rem;
+    font-size: small;
+    font-weight: 300;
+}
+
+input::placeholder{
+    font-size: small;
+    font-weight: 300;
+}
+
+.label-warning{
+    font-size: smaller;
+    font-weight: 200;
+    color: crimson;
+}
+
+.submit-button{
+    width: 100%;
+    background-color: rgb(255, 255, 0);
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    padding: 0.45rem 0;
+    font-size: medium;
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(240, 240, 0);
+    z-index: 1;
+}
+
+
+.custom-room-text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.custom-room-text button{
+  outline: none;
+  background-color: gainsboro;
+  color: rgba(0,0,0,0.9);
+  font-weight: 400;
+  font-size: smaller;
+  border-radius: 0.2rem;
+  transition: all 0.2s ease;
+  border: none;
+  padding: 0.4rem;
+}
+
+.custom-room-text button:hover{
+  background-color:greenyellow;
+  transform: scale(0.95);
+}
+
+.custom-room-text {
+  border-radius: 0.2rem;
+  background-color: azure;
+  height: 2rem;
+  padding: 0.3rem;
+}
+
+#submit-button-link{
+  border: 2px solid red;
+  cursor: pointer;
+}
